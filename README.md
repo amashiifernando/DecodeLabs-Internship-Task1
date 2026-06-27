@@ -1,8 +1,9 @@
-# Data Science Internship Project 1 — Advanced EDA & Feature Engineering
+# Data Science Internship Project 1 
+## Advanced EDA & Feature Engineering
 
 **DecodeLabs Internship 2026**
 
-## 📌 Overview
+## Overview
 This project transforms a raw e-commerce orders dataset into a clean,
 analysis-ready dataset using statistical data wrangling techniques.
 The focus is on mathematical rigor- not just running code, but
@@ -70,28 +71,39 @@ deleted, preserving all 1,200 rows.
   payment methods, and order statuses
 
 
-## How to Run
-Option 1 — Google Colab
+## Repository Structure
+```
+├── DecodeLabs_Task1.ipynb            # Main analysis notebook (Colab)
+├── Dataset-online_store_orders.xlsx  # Raw input dataset
+├── cleaned_datasets                  # Cleaned, readable outputs
+├── EDA_Visualizations.png            # EDA visual summary
+└── README.md
+```
 
-Open Project1.ipynb in Google Colab
-Upload Dataset-online_store_orders.xlsx to the Colab session (or mount Google Drive if stored there)
-Run all cells: Runtime → Run all
+## How to Run
+
+**Option 1 — Google Colab**
+1. Open `Project1.ipynb` in [Google Colab](https://colab.research.google.com/)
+2. Upload `Dataset-online_store_orders.xlsx` to the Colab session
+   (or mount Google Drive if stored there)
+3. Run all cells: **Runtime → Run all**
 
 Required libraries (pre-installed on Colab, no setup needed):
+```
 pandas, numpy, matplotlib, seaborn, openpyxl
+```
 
-
-Option 2 — VS Code
-
-Open the project folder in VS Code
-Install the Jupyter extension (if not already installed)
-Open Project1.ipynb and select your Python interpreter (e.g. Anaconda)
-Make sure the dataset file is in the same folder as the notebook
-Run all cells using the ▶️ Run All button at the top of the notebook
+**Option 2 — VS Code**
+1. Open the project folder in VS Code
+2. Install the **Jupyter** extension (if not already installed)
+3. Open `Project1.ipynb` and select your Python interpreter (e.g. Anaconda)
+4. Make sure the dataset file is in the same folder as the notebook
+5. Run all cells using the ▶️ **Run All** button at the top of the notebook
 
 Install dependencies (if not using Anaconda's base environment):
-bash
+```bash
 pip install pandas numpy matplotlib seaborn openpyxl
+```
 
 ## Tech Stack
 - Python (Pandas, NumPy)
