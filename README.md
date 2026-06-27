@@ -73,7 +73,7 @@ deleted, preserving all 1,200 rows.
 
 ## Repository Structure
 ```
-DecodeLabs_Task1/
+DecodeLabs-Task1/
 ├── DecodeLabs_Task1.ipynb                     # Main analysis notebook
 ├── Dataset-online_store_orders.xlsx           # Raw input dataset
 ├── EDA_Visualizations.png                     # EDA visual summary
