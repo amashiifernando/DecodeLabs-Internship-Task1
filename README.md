@@ -73,11 +73,14 @@ deleted, preserving all 1,200 rows.
 
 ## Repository Structure
 ```
-├── DecodeLabs_Task1.ipynb            # Main analysis notebook (Colab)
-├── Dataset-online_store_orders.xlsx  # Raw input dataset
-├── cleaned_datasets                  # Cleaned, readable outputs
-├── EDA_Visualizations.png            # EDA visual summary
-└── README.md
+DecodeLabs_Task1/
+├── DecodeLabs_Task1.ipynb                     # Main analysis notebook
+├── Dataset-online_store_orders.xlsx           # Raw input dataset
+├── EDA_Visualizations.png                     # EDA visual summary
+├── README.md
+└── Cleaned_Datasets/
+    ├── cleaned_dataset.csv                    # Encoded, ML-ready dataset
+    └── cleaned_dataset_with_features.xlsx     # Readable dataset with new features
 ```
 
 ## How to Run
