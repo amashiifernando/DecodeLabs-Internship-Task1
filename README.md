@@ -1,7 +1,7 @@
 # Data Science Internship Project 1 
 ## Advanced EDA & Feature Engineering
 
-**DecodeLabs Internship 2026 - Amshi Fernando**
+**DecodeLabs Internship 2026 - Amashi Fernando**
 
 ## Overview
 This project transforms a raw e-commerce orders dataset into a clean,
