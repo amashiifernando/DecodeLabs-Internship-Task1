@@ -77,10 +77,10 @@ DecodeLabs_Task1/
 ├── DecodeLabs_Task1.ipynb                     # Main analysis notebook
 ├── Dataset-online_store_orders.xlsx           # Raw input dataset
 ├── EDA_Visualizations.png                     # EDA visual summary
-├── README.md
 └── Cleaned_Datasets/
     ├── cleaned_dataset.csv                    # Encoded, ML-ready dataset
     └── cleaned_dataset_with_features.xlsx     # Readable dataset with new features
+README.md
 ```
 
 ## How to Run
